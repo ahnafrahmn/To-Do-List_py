@@ -775,5 +775,5 @@ standard = ["colorama (>=0.4) ; sys_platform == \"win32\"", "httptools (>=0.6.3)
 
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.11,<3.13"
-content-hash = "b1ff86e24728fdabcdde3be33bab94d6b1376a07f4247230b4d8c6af624d434b"
+python-versions = ">=3.11,<3.14"
+content-hash = "96430a9118cf8fc67351795c012aa5b6626d74680a4cd25947d243558d43de81"
