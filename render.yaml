@@ -1,9 +1,6 @@
 services:
   - type: web
-    name: todo-backend
+    name: fastapi-todo-api
     env: python
-    rootDir: backend
-    pythonVersion: 3.12.3
-    plan: free
-    buildCommand: poetry install
-    startCommand: poetry run uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    buildCommand: cd backend && poetry install
+    startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port 10000
